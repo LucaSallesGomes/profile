@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 18.75rem;
+  background-color: rgba(153, 170, 144, 0.12);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  color: rgb(36,48,56);
+  text-align: center;
+}
+
+h2{
+  font-size: 1.688rem ;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 10vw;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+.list-item > a {
+  color: rgb(0, 0, 0);
+}
+.list-item {
+  display: inline-block;
+  font-size: 2.5rem;
+  color: blue;
+  margin: 0.5rem;
+  padding-top: 0.625rem;
+}
+.list-item > a:hover {
+  color: black;
+  font-size: 3.125rem;
+}
+
+a:hover{
+  color: black;
+  font-size: 1.125rem;
+  padding: auto;
+}
+
+div {
+  background: rgba(37, 45, 38, 0.343);
+  padding: 1.875rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.625rem 0.625rem rgba(0, 0, 0, 0.3);
+  margin: 5%;
+  display: block;
+  text-align: center;
+}
+
+#button-1{
+  background-color: brown;
+  text-decoration: none;
+  padding: 0.313rem;
+  border-radius: 0.313rem;
+  color: white;
+}
+
+#second-bundle{
+  border-radius: 0.25rem;
+  padding-bottom: 1.875rem;
+  box-shadow: 0 0.625rem 0.625rem rgba(0, 0, 0, 0.3);
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
