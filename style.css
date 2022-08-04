@@ -10,20 +10,26 @@ body {
 
 h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.25rem;
-  font-style: italic;
+  font-size: 1.55rem;
+  font-style:unset;
   color: rgb(36,48,56);
   text-align: center;
 }
 
+p {
+  margin: 0.3rem 0 0.3rem 0;
+}
+
 h2{
-  font-size: 1.688rem ;
+  font-size: 1rem ;
 }
 
 img {
   display: block;
   margin: 0 auto;
-  width: 10vw;
+  width: 24vw;
+  height: 24vw;
+  border-radius: 20%;
 }
 
 .list-inline {
@@ -58,17 +64,33 @@ div {
   padding: 1.875rem;
   border-radius: 0.25rem;
   box-shadow: 0 0.625rem 0.625rem rgba(0, 0, 0, 0.3);
-  margin: 5%;
+  margin: 1% 6% 1% 6%;
   display: block;
   text-align: center;
 }
 
 #button-1{
-  background-color: brown;
+  background-color: rgba(255, 0, 0, 0.638);
   text-decoration: none;
   padding: 0.313rem;
   border-radius: 0.313rem;
   color: white;
+}
+
+#button-2{
+  background-color: rgba(255, 0, 0, 0.638);
+  text-decoration: none;
+  padding: 0.313rem;
+  border-radius: 0.313rem;
+  color: white;
+}
+
+#first-bundle{
+  border-radius: 0.25rem;
+  padding: 0;
+  box-shadow: 0 0.625rem 0.625rem rgba(0, 0, 0, 0.3);
+  display: block;
+  text-align: center;
 }
 
 #second-bundle{
